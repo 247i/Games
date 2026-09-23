@@ -22,7 +22,7 @@ Command-line parameters:
     -z 2           # Software scale to 640x480.
 Loading settings from: ./settings.ini
 Enabling platform specific accelerated scaling.
-Scaling factor: 2.000000
+Scaling factor: 4.000000
 Screen surface using 3 bytes per pixel.
 statsInit(); Stats ready to be refreshed.
 initPack();
@@ -32,3 +32,7 @@ packSet(); Selecting pack 0...
 packSet(); Selected pack './packs/000_wizznic' Loading stats..
 packSet(); Stats loaded.
 Setting Music...
+loadSample(); Warning: Couldn't load ./packs/000_wizznic/themes/oldskool/snd/brickswap.ogg
+loadSample(); Warning: Couldn't load ./packs/000_wizznic/themes/oldskool/snd/brickcopy.ogg
+loadSample(); Warning: Couldn't load ./packs/000_wizznic/themes/oldskool/snd/brickswapdenied.ogg
+loadSample(); Warning: Couldn't load ./packs/000_wizznic/themes/oldskool/snd/brickcopydenied.ogg
