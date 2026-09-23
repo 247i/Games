@@ -1,0 +1,24 @@
+video hardware capabilities:
+Hardware Surfaces: No
+HW_Blit (CC, A): No (No, No)
+SW_Blit (CC, A): No (No, No)
+HW_Fill: No
+Video Memory: 0
+------
+loading configuration...
+loading profiles... ok
+searching for level sets...
+'Original'
+...total of 1
+loading levelsets...
+Original... ok
+loading graphics sets...
+'stone'... 
+ok
+'wood'... 
+ok
+'metal'... 
+ok
+saving profiles... ok
+saving profiles... ok
+Bye, bye!

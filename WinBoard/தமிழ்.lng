@@ -1,0 +1,945 @@
+## WinBoard 4.5.0 மொழி கோப்பு
+## Tamil/தமிழ் v1.0.1
+## மொழிபெயர்ப்பு - தமிழ்நேரக்குழு
+##
+## இதை நீங்கள் திருத்தினால், உங்கள் தேதி, பெயர் மற்றும் விளக்கத்தைச் செருகவும்.
+## தமிழ்நேரக்குழு (HTTPS://TamilNeram.github.io)
+##
+
+## மொழிபெயர்ப்பாளர்களுக்கான குறிப்புகள்:
+## o கருத்துகளுக்கு ## ஐப் பயன்படுத்தவும், இந்த மொழிபெயர்ப்பில் அவை சிதறிக்கிடக்கின்றன
+## o நேரடி மொழிபெயர்ப்பின் தூண்டுதலுடன் கவனமாக இருங்கள், 'நகர்த்து' சிறப்பாக இருக்கும் போது 'மூவ்' என்பதற்கு உதாரணம் 'Move'.
+## o குறுகிய சொற்றொடர்களைப் பயன்படுத்த முயற்சிக்கவும், அதிக உரை அதிக தெளிவைக் குறிக்காது.
+## o உங்கள் மொழிபெயர்ப்பு சரியாக உள்ளதா என்று பாருங்கள், அது என்ன செய்கிறது என்று பொருள்படுகிறதா?
+## o உங்கள் மொழிபெயர்ப்பைச் சோதிக்கவும், ஒவ்வொரு உரையாடலையும் சரிபார்க்கவும்.
+## o நிலையான சதுரங்கப் பெயர்களை உறுதிப்படுத்த விக்கிபீடியாவைப் பார்க்கவும்.
+## o மெனுக்களுக்கு, நீங்கள் மொழிபெயர்ப்பை முடிக்கும் வரை குறுக்குவழிகளை (எழுத்து &) ஒதுக்கவும்.
+
+
+winboard.rc
+
+MENUS:
+
+"&New Game\tCtrl-N" === "&புதிய விளையாட்டு\tCtrl+N"
+"New Sh&uffle Game..." === "புதிய விளையாட்டு கலவை..."
+"New &Variant...\tAlt+Shift+V" === "புதிய மாறுபாடு...\tAlt+May�s+V"
+"&Load Game...\tCtrl-O" === "&ஏற்று விளையாட்டு...\tCtrl+O"
+"L&oad Position...\tCtrl+Shift+O" === "ஏற்று நிலை...\tCtrl+May�s+O"
+"&Save Game...\tCtrl-S" === "&சேமி விளையாட்டு...\tCtrl+S"
+"S&ave Position...\tCtrl+Shift+S" === "சேமி po&sici�n...\tCtrl+May�s+S"
+"Save as &Diagram..." === "சேமி &diagrama..."
+"&Quit" === "&Salir"
+## Next six strings not used now.
+"Load &Next Game\tAlt+PgDn" === "விளையாட்டு s&iguiente\tAlt+PgDn"
+"Load &Previous Game\tAlt+PgUp" === "Par&tida previa\tAlt+PgUp"
+"&Reload Same Game" === "Releer la &misma விளையாட்டு"
+"Load N&ext Position\tAlt+Shift+PgDn" === "நிலை si&guiente\tAlt+May�s+PgDn"
+"Load Pre&vious Position\tAlt+Shift+PgUp" === "Posici�&n previa\tAlt+May�s+PgUp"
+"Reload Sa&me Position" === "Releer la mism&a நிலை"
+
+"&Copy Game To Clipboard\tCtrl+C" === "&Copiar விளையாட்டு\tCtrl+C"
+"C&opy Position To Clipboard\tCtrl+Shift+C" === "C&opiar நிலை\tAlt+May�s+C"
+"Copy Game List to Clipboard" === "Copiar lista de &விளையாட்டுs"
+"&Paste Game From Clipboard\tCtrl+V" === "&Pegar விளையாட்டு\tCtrl+V"
+"P&aste Position From Clipboard\tCtrl+Shift+V" === "Peg&ar நிலை\tAlt+May�s+V"
+"&Edit Game\tCtrl+E" === "&Editar விளையாட்டு\tCtrl+E"
+"E&dit Position\tCtrl+Shift+E" === "E&ditar நிலை\tCtrl+May�s+E"
+"Edit Ta&gs..." === "Editar c&ircunstancias..."
+"Edit Co&mment..." === "Editar co&mentarios..."
+"Enter &Username..." === "Introducir nombre de &usuario..."
+"&Revert\tHome" === "&Revertir\tHome"
+"&Annotate" === "&Anotar"
+"&Truncate Game\tEnd" === "&Truncar விளையாட்டு\tEnd"
+"&Backward\tAlt+Left" === "Jugada &anterior\tAlt+Izquierda"
+"&Forward\tAlt+Right" === "&Siguiente jugada\tAlt+Derecha"
+"Back to &Start\tAlt+Home" === "&Primera jugada\tAlt+Inicio"
+"For&ward to End\tAlt+End" === "&Ultima jugada\tAlt+Fin"
+
+"Flip &View\tF2" === "&Tablero invertido\tF2"
+"&Swap Clocks" === "Intercambiar relojes"
+"Engine &Output\tAlt+Shift+O" === "Mostrar &salida del motor\tAlt+May�s+O"
+"Evaluation &Graph\tAlt+Shift+E" === "Mostrar &gr�fica de evaluaci�n\tAlt+May�s+E"
+"Game &List\tAlt+Shift+G" === "Mostrar &lista de விளையாட்டுs\tAlt+May�s+G"
+"Move &History\tAlt+Shift+H" === "Mostrar lista de &jugadas\tAlt+May�s+H"
+"Open &New Chat Window" === "Abrir ventana de conversaci�n"
+"Type In &Move...\tAlt+I" === "T&eclear jugada...\tAlt+I"
+"&Tags" === "C&ircunstancias"
+"&Comments" === "&Comentarios"
+"&Game List Tags..." === "Opciones de lista de &விளையாட்டுs..."
+"&Board..." === "Opciones del t&ablero..."
+"&Fonts..." === "Opciones de ti&pograf�a..."
+
+"Machine &White\tCtrl+W" === "El programa juega con &blancas\tCtrl+W"
+"Machine &Black\tCtrl+B" === "El programa juega con &negras\tCtrl+B"
+"&Two Machines\tCtrl+T" === "Juegan d&os programas\tCtrl+T"
+"Machine Both" === "Programa contra si mismo"
+"&Analysis Mode\tCtrl+A" === "&An�lisis\tCtrl+A"
+"Analyze &File\tCtrl+F" === "A&nalizar archivo\tCtrl+F"
+"&Edit Game\tCtrl+E" === "&Editar விளையாட்டு\tCtrl+E"
+"E&dit Position\tShift+Ctrl+E" === "E&ditar நிலை\tCtrl+May�s+E"
+"Trai&ning" === "Ent&renamiento"
+"&ICS Client" === "Conectado a un &ICS"
+"&Machine Match" === "&Torneo de dos programas"
+"&Pause\tPause" === "&Pausa\tPausa"
+
+"&Accept\tF3" === "&Acepto\tF3"
+"D&ecline\tF4" === "&Rehuso\tF4"
+"Re&match\tF12" === "Pido &desquite\tF12"
+"Call &Flag\tF5" === "&Pedir la bandera\tF5"
+"&Draw\tF6" === "&Tablas\tF6"
+"Ad&journ\tF7" === "Ap&lazamiento\tF7"
+"A&bort\tF8" === "A&nulaci�n\tF8"
+"&Resign\tF9" === "&Me rindo\tF9"
+"Stop &Observing\tF10" === "Dejo de obser&var\tF10"
+"Stop E&xamining\tF11" === "Dejo de e&xaminar\tF11"
+"&Upload to Examine" === "Enviar para examinar"
+"Adjudicate to &White" === "Adjudicar a blancas"
+"Adjudicate to &Black" === "Adjudicar a negras"
+"Adjudicate &Draw" === "Adjudicar tablas"
+
+"Engine #&1 Settings..." === "Configuraci�n motor #&1..."
+"Engine #&2 Settings..." === "Configuraci�n motor #&2..."
+"Install 1st..." === "Lista de motores #1..."
+"Install 2nd..." === "Lista de motores #2..."
+"&Hint..." === "&Dame una pista..."
+"&Book..." === "Repertorio de &aperturas..."
+"&Move Now\tCtrl+M" === "&Forzar jugada\tCtrl+M"
+"&Retract Move\tCtrl+X" === "&Revocar jugada\tCtrl+X"
+
+"&Mute all Sounds" === "&Apagar los sonidos"
+"&General..." === "&Generales..."
+"&Time Control...\tAlt+Shift+T" === "&Controles de tiempo..."
+"Common &Engine...\tAlt+Shift+U" === "Para los motores...\tAlt+May�s+U"
+"Ad&judications...\tAlt+Shift+J" === "Adjudicaciones...\tAlt+May�s+J"
+"&Load Game...\tAlt+Shift+L" === "Para &leer விளையாட்டு...\tAlt+May�s+L"
+"&Save Game...\tAlt+Shift+S" === "Para gua&rdar விளையாட்டு...\tAlt+May�s+S"
+"G&ame List..." === "Lista de &விளையாட்டுs..."
+"Soun&ds..." === "Soni&do..."
+"&ICS..." === "&ICS..."
+"Add ICS..." === "Nuevo ICS..."
+"Comm&unications..." === "Com&unicaciones..."
+"Save Settings &Now" === "Salvar config. a&hora"
+"Save Settings on E&xit" === "Salvar config. al &salir del programa"
+
+"Help &Contents\tF1" === "&Contenido\tF1"
+"Help &Index" === "&Indice alfab�tico"
+"How to &Use Help" === "Modo de utilizar la ayuda"
+"&About WinBoard" === "Acerca de &WinBoard"
+
+"White" === "Blancas"
+"Promote" === "Coronar"
+"Pawn" === "Pe�n"
+"Knight" === "Caballo"
+"Bishop" === "Alfil"
+"Rook" === "Torre"
+"Queen" === "Dama"
+"King" === "Rey"
+"Archbishop" === "Arzobispo"
+"Chancellor" === "Canciller"
+"Elephant" === "Elefante"
+"Cannon" === "Ca��n"
+"Empty Square" === "Vaciar el escaque"
+"Black" === "Negras"
+"Demote" === "Degradar"
+"Clear Board    " === "Limpiar el tablero    "
+"Gold" === "Oro"
+"Silver" === "Plata"
+"Lance" === "Lanza"
+
+"Drop" === "Soltar"
+
+"Cop&y and Paste" === "Cop&iar y pegar"
+"&Copy" === "&Copiar"
+"&Paste" === "&Pegar"
+
+"&Undo" === "&Deshacer"
+"Cu&t" === "Cor&tar"
+"&Copy" === "&Copiar"
+"&Paste" === "&Pegar"
+"Select &All" === "&Seleccionar todo"
+
+DIALOGS:
+
+ABOUTBOX
+
+"About WinBoard" === "Acerca de WinBoard"
+"OK" === "Aceptar"
+"Chessboard for Windows" === "Tablero de ajedrez para Windows"
+## Next three strings for some reason don't get translated
+"Copyright 1991 Digital Equipment Corporation" === "(c) Copyright Digital Equipment Corporation 1991"
+"Enhancements Copyright 1992-2010  Free Software Foundation" === "Mejoras (c) Copyright Free Software Fundation 1992-2010"
+"Enhancements Copyright 2005\r\nAlessandro Scotti" === "Mejoras (c) Copyright\r\nAlessandro Scotti 2005"
+"      " === "Traducci�n por �scar Toledo G."
+"WinBoard 0.0.0" === "WinBoard 0.0.0"
+
+ABOUTBOX2
+
+"galactic" === "gal�ctico"
+
+TIME CONTROL DIALOG
+
+"Time Control" === "Control de tiempo"
+"Conventional chess clock" === "Reloj convencional de ajedrez"
+"Incremental clock" === "Reloj incremental"
+"Cancel" === "Cancelar"
+
+"Use arrow keys to specify which clock setting type, then press tab to alter values." === "Utilice las flechas del teclado para especificar el tipo de configuraci�n de reloj, despu�s oprima Tab para alterar los valores."
+"Fixed time per move" === "Tiempo fijo por jugada"
+"Number of moves:" === "N�mero jugadas:"
+"Within number of minutes:" === "Durante (minutos):"
+"Initial number of minutes:" === "N�mero inicial de minutos:"
+"Plus number of seconds per move:" === "Segundos extra por jugada:"
+"Maximum seconds per move:" === "M�ximo de segundos por jugada:"
+"Time-Odds Factors:" === "Factores de tiempo:"
+"Engine #1:" === "Motor #1:"
+"Engine #2:" === "Motor #2:"
+
+LOAD OPTIONS DIALOG
+
+"Load Game Options" === "Opciones al leer விளையாட்டு"
+"Load games with automatic stepping" === "Carga விளையாட்டு con avance autom�tico"
+"seconds per move" === "segundos por jugada"
+
+SAVE OPTIONS DIALOG
+
+"Save Game Options" === "Opciones al salvar விளையாட்டு"
+"Save Style" === "Estilo"
+"Save games automatically" === "Salvar விளையாட்டுs autom�tico"
+"Prompt for filename" === "Pedir nombre"
+"To file:" === "Archivo:"
+"PGN" === "PGN"
+"Old" === "Viejo"
+"Browse..." === "Ver"
+"Save out of book info in PGN" === "Incluir en PGN info. al dejar libro de aperturas"
+
+1536
+
+"Open" === "Abrir"
+"File &Name:" === "&Nombre:"
+"&Directories:" === "&Directorios:"
+"List Files of &Type:" === "Listar de &tipo:"
+"Dri&ves:" === "&Unidades:"
+"&Help" === "Ay&uda"
+"&Index number:" === "N�&m. �ndice"
+
+COMMPORT
+"Communication Port Settings" === "Configuraci�n comunicaciones"
+"Net&work..." === "&Red..."
+"&Port:" === "&Puerta:"
+"Data &Rate:" === "&Velocidad:"
+"Data &Bits:" === "&Bits:"
+"P&arity:" === "P&aridad:"
+"&Stop Bits:" === "Bits pa&rada:"
+"F&low:" === "F&lujo:"
+
+EDIT COMMENT
+
+"Edit Comment" === "Editar comentario"
+"&Clear" === "&Limpiar"
+"&Edit" === "&Edici�n"
+
+PROMOTION POPUP
+"Promotion" === "Coronaci�n"
+"&Queen" === "&Dama"
+"&Rook" === "&Torre"
+"&Bishop" === "&Alfil"
+"K&night" === "Ca&ballo"
+"&King" === "&Rey"
+"&Cancel" === "&Cancelar"
+"Promote to:" === "Coronar a:"
+"Promote?" === "�Coronar?:"
+
+"Chance&llor" === "Canci&ller"
+"&Archbishop" === "Ar&zobispo"
+"      YES" === "       SI"
+"       NO" === "       NO"
+"C&entaur" === "C&entauro"
+
+GAME LIST
+
+"Game List" === "Lista de juegos"
+"&Load" === "&Leer"
+"&Prev" === "&Previo"
+"&Next" === "&Siguiente"
+"&Close" === "&Cerrar"
+"Filter" === "Filtro"
+
+EDIT TAGS
+
+"Edit Tags" === "Circunstancias"
+
+ERROR
+
+"ICS Interaction" === "Interacci�n ICS"
+"Dialog" === "Di�logo"
+"Error" === "Error"
+"Sorry Charlie" === "Lo siento amigo"
+
+COLORIZE
+
+"I C S Interaction Colors" === "Colores interacci�n I C S"
+"Interaction Colors" === "Colores interacci�n"
+"Premove" === "Pre-mov."
+"Alarm" === "Alarma"
+"Colors" === "Colores"
+"&Choose Color..." === "&Escoger color..."
+"&Bold" === "&Negrita"
+"&Italic" === "&It�lica"
+"&Underline" === "&Subrayado"
+"&Strikeout" === "&Tachado"
+
+QUESTION
+
+"Enter a chess engine command or just type something stupid that will completely screw things up." === "Introduzca una orden para el motor o s�lo teclee algo tonto que arruinar� completamente las cosas."
+"Question" === "Pregunta"
+"Enter" === "Entrar"
+
+STARTUP DIALOG
+
+"WinBoard Startup" === "Inicio de WinBoard"
+"What would you like to do?" === "�Qu� le gustar�a hacer?"
+"&Play against a chess engine or match two engines" === "&Jugar contra un motor de ajedrez o torneo de dos motores"
+"&Use an Internet Chess Server" === "&Utilizar un servidor de ajedrez de Internet (ICS)"
+"Just &view or edit game files" === "S�lo &ver o editar archivos de விளையாட்டுs"
+"Specify Chess &Engines:" === "Especifique &motores de ajedrez:"
+"Specify Chess &Server:" === "Especifique &servidor de ajedrez:"
+"&Additional options" === "Opciones extras"
+
+INDEX
+
+"Type in a move" === "Introduzca una jugada"
+"Inde&x number:" === "N�m. �ndi&ce"
+
+SOUND DIALOG
+
+"Sounds" === "Sonidos"
+
+"&Event:" === "&Evento:"
+"&No sound" === "&Sin sonido"
+"&Default beep" === "Bip por &defecto"
+"&Built-in sound:" === "Sonido &interno"
+"&WAV file:" === "Archivo &WAV:"
+"B&rowse..." === "E&xaminar..."
+"&Play" === "&Reproducir"
+"&Defaults" === "&Por defecto"
+
+GENERAL OPTIONS DIALOG
+## Note: finely tuned spaces to align keys at right
+
+"General Options" === "Opciones generales"
+"Always on &Top" === "Siempre al &frente"
+"Always &Queen            Ctrl+Shift+Q" === "Siempre &dama                Ctrl+May�s+Q"
+"Animate &Dragging" === "Animar &arrastre"
+"&Animate Moving         Ctrl+Shift+A" === "Animar &movimiento         Ctrl+May�s+A"
+"Auto &Flag                   Ctrl+Shift+F" === "&Bandera autom�tica       Ctrl+May�s+F"
+"Auto Flip &View" === "Cambio de &lado autom�tico"
+"Auto &Raise Board" === "&Tablero al frente (autom�tico)"
+"&Blindfold" === "A &ciegas"
+"Highlight Dra&gging" === "Iluminar a&rrastre"
+"Highlight Last &Move" === "Iluminar �ltima ju&gada"
+"Periodic &Updates" === "Act&ualizaci�n peri�dica"
+"Ponder &Next Move  Ctrl+Shift+P" === "Prever &pr�x.jugada      Ctrl+May�s+P"
+"&Popup Exit Message" === "&Ventana al salir"
+"Popup Move &Errors" === "Ventana si &error en jugada"
+"Show Butt&on Bar" === "Mostrar barra de boto&nes"
+"Show &Coordinates" === "Mostrar coordenada&s"
+"&Show Thinking" === "Mostrar cog&itaciones"
+"Test &Legality            Ctrl+Shift+L" === "Checar &legalidad         Ctrl+May�s+L"
+"&Hide Thinking          Ctrl+Shift+H" === "Ocultar cogitaci�n      Ctrl+May�s+H"
+"&Info in Move History   Ctrl+Shift+I" === "Info. en lista jugadas       Ctrl+May�s+I"
+"&Send Engine Think" === "Enviar cogitaciones del motor"
+"E&xtended PGN Info    Ctrl+Shift+X" === "Info. PGN extendida       Ctrl+May�s+X"
+"Highlight with Arro&w" === "Iluminar con flecha"
+"Displa&y Logos" === "Mostrar logotipos"
+"One-Click Move" === "Movimiento de un click"
+
+ICS OPTIONS
+
+"ICS Options" === "Opciones ICS"
+"&Auto Comment" === "&Auto-comentario"
+"Auto &Observe" === "Auto-&Observar"
+
+"&Get Move List" === "L&eer lista jugadas"
+
+"&Local Line Editing" === "Edici�n de l�nea &local"
+"&Quiet Play" === "Jugar en s&ilencio"
+
+"&Premove" === "&Movimiento prev."
+
+"&White first move" === "1er. mov. &blancas"
+"&Black first move" === "1er. mov. &negras"
+"&Sound alarm at" === "&Sonar alarma en"
+"seconds" === "segundos"
+"Choose..." === "Escoger..."
+"Do &not colorize messages" === "N&o colorear mensajes"
+
+"&Auto Kibitz" === "&Auto Kibitz"
+"Auto Kibit&z" === "Auto Kibit&z"
+"See&k Graph" === "&Buscar gr�fica"
+"auto-&Refresh" === "auto-&Refresco"
+"Bckgnd Obser&ve" === "M&irar en el fondo"
+"&Dual Board" === "Tablero &dual"
+"One-Click &Move" === "&Movimiento de un click"
+"Background..." === "Fondo..."
+"&Defaults..." === "&Por defecto..."
+"Startup &Chat Boxes:" === "Cajones de pl�tica:"
+"General" === "General"
+
+BOARD OPTIONS
+## (NOTE: AllWhite uses the white pieces for both sides
+##        FlipBlack plots the black pieces upside down)
+
+"Board Options" === "Opciones de tablero"
+"Defaults" === "Por defecto"
+"Light Squares" === "Cuadros claros"
+"Dark Squares" === "Cuadros obscuros"
+"White Pieces" === "Piezas blancas"
+"Black Pieces" === "Piezas negras"
+"Square Highlights" === "Cuadro iluminado"
+"Premove Highlights" === "Iluminaci�n pre.mov."
+"Monochrome" === "Monocromo"
+
+"All White" === "S�lo blancas"
+"Flip Black" === "Girar negras"
+
+"Size" === "Tama�o"
+
+BOARD SIZES 
+## This is a space for imagination
+"&Tiny" === "&Infimo"
+"T&eeny" === "Dimin&uto"
+"&Dinky" === "&Pigmeo"
+"&Petite" === "E&nano"
+"Sl&im" === "Peque�in"
+"&Small" === "Pe&que�o"
+"Medi&ocre" === "Medio&cre"
+"&Middling" === "Esca&so"
+"&Average" === "Ra&zonable"
+"Mode&rate" === "Mode&rado"
+"Medi&um" === "&Medio"
+"Bul&ky" === "Apara&toso"
+"&Large" === "&Grande"
+"&Big" === "&Enorme"
+"&Huge" === "Inmen&so"
+"&Giant" === "Gigante"
+"&Colossal" === "Colos&al"
+"Tita&nic" === "Tit�nico"
+
+FONTS
+
+"Fonts" === "Tipograf�a"
+"Current Board Size" === "Tama�o actual del tablero"
+"All Board Sizes" === "Todos los tama�os de tablero"
+"&Revert to Defaults" === "&Volver a por defecto"
+"Clocks" === "Relojes"
+"Messages" === "Mensajes"
+"Coordinates" === "Coordenadas"
+"Tags" === "Circunstancias"
+"Comments" === "Comentarios"
+"I C S Interaction" === "Interacci�n ICS"
+
+"&Color..." === "&Color..."
+"Move History, Engine Output" === "Lista jugadas,    salida motor"
+
+ADJUDICATIONS DIALOG
+
+"Adjudications" === "Adjudicaciones"
+
+"Ponder Next Move" === "Prever siguiente jugada"
+"Enable and Show Thinking (recommended)" === "Activa y muestra cogitaciones (recomendado)"
+"Hide Thinking when Playing against Human" === "Ocultar cogitaciones al jugar contra humano"
+"Periodic Updates (for Analysis Mode)" === "Actualizaci�n peri�dica (en an�lisis)"
+
+"Adjudications in non-ICS games" === "Adjudicaciones en juegos no-ICS"
+
+"Adjudicate draw after:" === "Adjudicar mate despu�s de:"
+
+"moves" === "jugadas"
+"Win/loss adjudication threshold:" === "L�mite para adjudicar juego:"
+"centipawns" === "centipeones"
+"&Verify Engine Claims" === "&Verificar avisos del motor"
+"Detect &Mates" === "Detectar &mates"
+"Draw if &Insufficient Material" === "Tablas si hay material &insuficiente"
+"Adjudicate &Trivial Draws" === "Adjudicar tablas &triviales"
+"Apply" === "Aplicar"
+
+"-move rule" === "-jugadas (regla)"
+"-fold repeats" === "-veces (repetici�n)"
+"Engine #1 Score is Absolute" === "Puntuaci�n motor #1 es absoluta"
+"Engine #2 Score is Absolute" === "Puntuaci�n motor #2 es absoluta"
+
+COMMON ENGINE DIALOG
+
+"Common Engine Settings" === "Configuraci�n com�n de motor"
+"Polyglot Directory:" === "Carpeta Polyglot:"
+"Hash Size (MB):" === "Tama�o hash (MB):"
+
+"EGTB Path:" === "Carpeta EGTB:"
+"EGTB Size (MB):" === "Tama�o EGTB (MB):"
+"Use Book:" === "Usar libro:"
+
+## Make it wider to say "N�mero m�ximo CPUs:"
+"Max nr of CPUs:" === "N�m.max. CPUs:"
+
+"First has Own Book" === "Primero tiene libro propio"
+"Second has Own Book" === "Segundo tiene libro propio"
+"Book Depth:" === "Profundidad libro:"
+"Book Variation:" === "Variaci�n libro:"
+"Default Match Games:" === "விளையாட்டுs torneo p/def"
+
+NEW-VARIANT DIALOG
+## (NOTE: the 'holdings' are the pieces standing next to the board ('in hand')
+
+"Variants" === "Variantes"
+"Variant" === "Variante"
+"Board size:" === "Tama�o de tablero"
+
+## Make it wider
+"ranks" === "columnas"
+
+"files" === "filas"
+"Holdings with room for:" === "Admitir en mano hasta:"
+"pieces" === "piezas"
+
+"('-1' means defaults for selected variant)" === "('-1' indica valor por defecto para variante seleccionada)"
+
+VARIANT NAMES: 
+"&normal" === "&normal"
+"&FRC" === ""
+"&wildcastle" === ""
+"&nocastle" === ""
+"&losers" === ""
+"&giveaway" === ""
+"s&uicide" === "s&uicida"
+"&3Check" === ""
+"&twokings" === ""
+"&atomic" === "&at�mico"
+"cra&zyhouse" === ""
+"&bughouse" === ""
+"&Twilight" === ""
+"&shogi" === ""
+"su&per" === ""
+"&knightmate" === ""
+"&Berolina" === ""
+"c&ylinder" === "c&ilindro"
+"&fairy" === ""
+"&makruk" === ""
+"&gothic" === "&g�tico"
+"&capablanca" === ""
+"&Janus" === ""
+"&CRC" === ""
+"&Falcon" === ""
+"cou&rier" === ""
+"&Great" === ""
+"&Shatranj" === ""
+"&xiangqi" === ""
+
+NEW SHUFFLE GAME
+
+"New Shuffle Game" === "புதிய விளையாட்டு revuelta"
+"&Start Position Number:" === "N�m. de pos. inicial:"
+"Random" === "Aleatorio"
+
+GAME-LIST OPTIONS DIALOG
+
+"Game List Options" === "Opciones de lista de விளையாட்டுs"
+"PGN &Tags:" === "&Etiquetas PGN:"
+
+"&Up" === "&Arriba"
+"&Down" === "A&bajo"
+"Default" === "Por defecto"
+"Factory" === "De f�brica"
+"Restore to:" === "Restaurar a"
+
+MOVE HISTORY WINDOW
+
+"Move History" === "Lista de jugadas"
+
+EVALUATION GRAPH
+
+"Evaluation Graph" === "Gr�fica de evaluaci�n"
+
+ENGINE OUTPUT WINDOW
+
+"Engine output" === "Salida de motores"
+"Engine #1" === "Motor #1"
+"NPS" === "NPS"
+"Engine #2" === "Motor #2"
+
+CHAT BOXES
+
+"Chat Window" === "Ventana de pl�tica"
+"Chat partner:" === "Qui�n platica:"
+"Clear" === "Limpiar"
+"Send" === "Enviar"
+
+winboard.c
+
+"&File" === "&Archivo"
+"&Edit" === "&Editar"
+"&View" === "&Ver"
+"&Mode" === "&Modo"
+"&Action" === "&விளையாட்டு"
+"E&ngine" === "Moto&r"
+"&Step" === "&Jugada"
+"&Options" === "&Opciones"
+"&Help" === "Ay&uda"
+"Font name too long:" === "Nombre tipogr�fico muy largo:"
+"Font point size missing:" === "Falta tama�o tipogr�fico:"
+"Can't parse color name %s" === "No se pudo analizar nombre de color %s"
+"Unrecognized board size value" === "Valor no reconocido de tama�o de tablero"
+"Unrecognized argument" === "Parametro no reconocido"
+"No value provided for argument" === "No se dio valor para parametro"
+"Incomplete \\ escape in value for" === "Escape \\ incompleto en valor para"
+"Failed to open indirection file" === "Falla al abrir archivo de indirecci�n"
+"Unrecognized boolean argument value" === "Valor no reconocido para parametro booleano"
+"Unrecognized argument" === "Parametro no reconocido"
+"Too many colors" === "Demasiados colores"
+"&Minimize\tCtrl+F4" === "&Minimizar\tCtrl+F4"
+"White: %s" === "Blancas: %s"
+"We only care about the height here" === "Aqu� solo importa la altura"
+"Cannot build game list" === "No se pudo armar lista de விளையாட்டுs"
+"Load Game from File" === "Leer விளையாட்டு desde archivo"
+"Load Position from File" === "Leer நிலை desde archivo"
+"Save Game to File" === "Salvar விளையாட்டு a archivo"
+"Save Position to File" === "Salvar நிலை a archivo"
+"%s does not support analysis" === "%s no admite an�lisis"
+"Analyze Game from File" === "Analizar juego desde archivo"
+"Unable to activate help" === "No se pudo activar la ayuda"
+"Send to chess program:" === "Enviar al programa de ajedrez:"
+"Send to second chess program:" === "Enviar al segundo programa de ajedrez:"
+"Direct Command" === "Orden directa"
+"Error loading sound %s" === "Error al cargar sonido %s"
+"Error playing sound %s" === "Error al ejecutar sonido %s"
+"File open failed" === "Falla al abrir archivo"
+"Internal error in file dialog box" === "Error interno en archivo de caja de di�logo"
+"Option Error" === "Error de opci�n"
+"Choose an option, or cancel to exit" === "Escoja una opci�n o cancelar para salir"
+"Unable to activate help" === "Imposible activar ayuda"
+"Displayed move is not current" === "La jugada ilustrada no es la actual"
+"Could not parse move" === "No se pudo analizar la jugada"
+"%s:\nError code %d" === "%s:\nC�digo de error %d"
+"Error" === "Error"
+"Fatal Error" === "Error fatal"
+"Exiting" === "Saliendo"
+"%s:\nError code %d" === "%s:\nC�digo de error %d"
+"Note" === "Nota"
+"Error writing to chess program" === "Error al escribir al programa de ajedrez"
+"User" === "Usuario"
+"Unknown" === "Desconocido"
+"White" === "Blancas"
+"Black" === "Negras"
+"Save Game to File" === "Salvar விளையாட்டு en archivo"
+"Save Diagram to File" === "சேமி diagrama en archivo"
+"Not implemented" === "No implementado"
+"Shout Text" === "Texto Shout"
+"SShout/CShout" === ""
+"Channel 1 Text" === "Texto canal 1"
+"Channel Text" === "Texto de canal"
+"Kibitz Text" === "Texto kibitz"
+"Tell Text" === "Texto tell"
+"Challenge Text" === "Texto desaf�o"
+"Request Text" === "Texto de pedido"
+"Seek Text" === "Texto de b�squeda"
+"Normal Text" === "Texto normal"
+"None" === "Ninguno"
+"Pawn" === "Pe�n"
+"Knight" === "Caballo"
+"Bishop" === "Alfil"
+"Rook" === "Torre"
+"Queen" === "Dama"
+"Information" === "Informaci�n"
+
+wclipbrd.c
+
+"Unable to convert position to FEN." === "Imposible convertir நிலை a FEN."
+"Unable to copy FEN to clipboard." === "Imposible copiar FEN a portapapeles."
+"Cannot create temporary file name." === "No se pudo crear nombre de archivo temporal"
+"Cannot open temporary file." === "No se pudo abrir archivo temporal"
+"Cannot write to temporary file." === "No se pudo escribir a archivo temporal"
+"Cannot reopen temporary file." === "No se pudo reabrir archivo temporal"
+"Cannot determine size of file." === "No se pudo determinar el tama�o del archivo"
+"Cannot allocate clipboard buffer." === "No se pudo asignar buffer para el portapapeles"
+"Cannot read from temporary file." === "No se pudo leer de archivo temporal"
+"Error reading from temporary file." === "Error al leer de archivo temporal"
+"Cannot copy text to clipboard" === "No se pudo copiar texto al portapapeles"
+"Unable to allocate memory for clipboard." === "Imposible asignar memoria para el portapapeles"
+"Unable to lock clipboard memory." === "Imposible proteger memoria del portapapeles"
+"Cannot unlock clipboard memory." === "Imposible desproteger memoria del portapapeles"
+"Cannot open clipboard." === "No se puede abrir el portapapeles"
+"Cannot empty clipboard." === "No se puede vaciar el portapapeles"
+"Cannot copy text to clipboard." === "No se puede copiar texto al portapapeles"
+"Cannot close clipboard." === "No se puede cerrar el portapapeles"
+"Unable to paste FEN from clipboard." === "Imposible pegar FEN desde el portapapeles."
+"Unable to create temporary file." === "Imposible crear archivo temporal."
+"Error writing to temporary file." === "Error al escribir a archivo temporal."
+"Unable to open clipboard." === "Imposible abrir el portapapeles"
+"No text in clipboard." === "No hay texto en el portapapeles."
+"Unable to lock clipboard memory." === "Imposible proteger memora del portapapeles"
+"Unable to allocate memory for text string." === "Imposible asignar memoria para cadena de texto"
+"Unable to unlock clipboard memory." === "Imposible desproteger memoria del portapapeles"
+"Unable to close clipboard." === "Imposible cerrar portapapeles"
+
+woptions.c
+
+## "Move" === "Jugada"
+## "Bell" === "Campana"
+## "ICS Alarm" === "Alarma ICS"
+## "ICS Win" === "Gana ICS"
+## "ICS Loss" === "Pierde ICS"
+## "ICS Draw" === "Empate ICS"
+## "ICS Unfinished" === "Sin terminar ICS"
+## "Shout" === ""
+## "SShout/CShout" === ""
+## "Channel 1" === "Canal 1"
+## "Channel" === "Canal"
+## "Kibitz" === "Kibitz"
+## "Tell" === "Decir"
+## "Challenge" === "Desafiar"
+## "Request" === "Pedir"
+## "Seek" === "Buscar"
+"Browse for Sound File" === "Buscar archivo de audio"
+"Can't parse com port settings" === "No se puede leer configuraci�n de puerta COM"
+"Option Error" === "Error de opci�n"
+"Invalid data rate" === "Velocidad incorrecta"
+"Option Error" === "Error de opci�n"
+"Failed to set comm port state;\r\ninvalid options?" === "Falla al poner estado de puerta de comunicaciones;\r\nopciones inv�lidas?"
+"Failed to set comm port state" === "Falla al poner estado de puerta de comunicaciones"
+"Invalid load game step rate" === "Velocidad de paso inv�lida para leer விளையாட்டு"
+"Invalid save game file name" === "Nombre de archivo inv�lido para salvar விளையாட்டு"
+"Browse for Auto Save File" === "Buscar el archivo de salvado autom�tico"
+"Invalid moves per time control" === "Control inv�lido de jugadas por tiempo"
+"Invalid minutes per time control" === "Control inv�lido de minutos por tiempo"
+"Invalid increment" === "Incremento inv�lido"
+"Invalid initial time" === "Tiempo inicial inv�lido"
+"Changing time control during a game is not implemented" === "No est� implementado cambiar el control de tiempo durante un juego"
+
+"Variant %s not supported by %s" === "La variante %s no es admitida por %s"
+"Warning: second engine (%s) does not support this!" === "Advertencia: �el segundo motor (%s) no admite esto!"
+"Invalid ICS Alarm Time" === "Tiempo de alarma ICS inv�lido"
+"Invalid max time per move" === "Tiempo m�ximo por jugada es inv�lido"
+"Invalid time-odds factor" === "Factor de tiempo es inv�lido"
+"Choose Folder" === "Escoja carpeta"
+"Choose Book" === "Escoja libro"
+"Choose Polyglot Directory" === "Escoja directorio Polyglot"
+"Choose EGTB Directory:" === "Escoja directorio EGTB"
+"Polyglot was not found in the specified folder!" === "�Polyglot no fue encontrado en la carpeta especificada!"
+
+wgamelist.c
+
+"No game selected" === "Ninguna விளையாட்டு seleccionada"
+"Can't go forward any further" === "Ya no se puede ir m�s adelante"
+"Can't back up any further" === "Ya no se puede ir m�s atr�s"
+"No game list" === "No hay lista de விளையாட்டுs"
+"Game List" === "Lista de விளையாட்டுs"
+"Game list not loaded or empty" === "Lista de விளையாட்டுs no cargada o vac�a"
+"%s - %d/%d games" === "%s - %d/%d விளையாட்டுs"
+
+wedittags.c
+
+"Edit Tags" === "Editar circunstancias"
+"Tags" === "Etiquetas"
+"Error replacing tags." === "Error al reemplazar etiquetas"
+
+wsettings.c
+
+"%s Engine Settings (%s)" === "Config. motor %s (%s)"
+"OK" === "Aceptar"
+"Cancel" === "Cancelar"
+
+wchat.c
+
+"Chat Window %s" === "Ventana de pl�tica %s"
+
+backend.c
+
+"bad timeControl option %s" === "opci�n timeControl incorrecta %s"
+"bad searchTime option %s" === "opci�n searchTime incorrecta %s"
+## Note that translation cannot be "primero" because it is for a composed string, check ahead
+"first" === "primer"
+"second" === "segundo"
+"protocol version %d not supported" === "versi�n %d del protocolo no es admitida"
+"Variant %s supported only in ICS mode" === "La variante %s solo se admite en modo ICS"
+"Unknown variant name %s" === "Nombre de variante desconocido %s"
+"Starting chess program" === "Iniciando programa de ajedrez"
+"Could not open comm port %s" === "No se pudo abrir la puerta de comunicaciones %s"
+"Could not connect to host %s, port %s" === "No se pudo conectar al servidor %s, puerta %s"
+"Unknown initialMode %s" === "Modo inicial desconocido %s"
+"Can't have a match with no chess programs" === "No se puede tener una விளையாட்டு sin programas de ajedrez"
+"Bad game file" === "archivo de விளையாட்டுs incorrecto"
+"Bad position file" === "archivo de நிலை incorrecto"
+"AnalyzeFile mode requires a game file" === "El modo an�lisis de archivo requiere un archivo de விளையாட்டு"
+"Analysis mode requires a chess engine" === "El modo de an�lisis requiere un motor de ajedrez"
+"Analysis mode does not work with ICS mode" === "El modo de an�lisis no funciona con el modo ICS"
+"MachineWhite mode requires a chess engine" === "El modo de m�quina con blancas requiere un motor de ajedrez"
+"MachineWhite mode does not work with ICS mode" === "El modo de m�quina con blancas no funciona con el modo ICS"
+"MachineBlack mode requires a chess engine" === "El modo de m�quina con negras requiere un motor de ajedrez"
+"MachineBlack mode does not work with ICS mode" === "El modo de m�quina con negras no funciona con el modo ICS"
+"TwoMachines mode does not work with ICS mode" === "El modo de dos m�quinas no funciona con el modo ICS"
+"TwoMachines mode requires a chess engine" === "El modo de dos m�quinas requiere un motor de ajedrez"
+"Training mode requires a game file" === "El modo de entrenamiento requiere un archivo de விளையாட்டுs"
+"Error writing to ICS" === "Error al escribir a ICS"
+"Error reading from keyboard" === "Error al leer el teclado"
+"Got end of file from keyboard" === "Se obtuvo del teclado un fin de archivo"
+"Error writing to ICS" === "Error al escribir a ICS"
+"Error writing to display" === "Error al escribir a la pantalla"
+"Error gathering move list: two headers" === "Error al recolectar lista de jugadas: dos encabezados"
+"Error gathering move list: nested" === "Error al recolectar lista de jugadas: anidado"
+"Connection closed by ICS" === "Conexi�n cerrada por ICS"
+"Error reading from ICS" === "Error al leer de ICS"
+"Failed to parse board string:\n\"%s\"" === "Falla al analizar cadena de tablero:\n\"%s\""
+"Game too long; increase MAX_MOVES and recompile" === "Juego demasiado largo; incremente MAX_MOVES y recompile"
+"Error gathering move list: extra board" === "Error al recolectar lista de jugadas: tablero extra"
+"Illegal move \"%s\" from ICS" === "Jugada ilegal \"%s\" de ICS"
+"Couldn't parse move \"%s\" from ICS" === "No se pudo analizar jugada \"%s\" de ICS"
+## 'say' must not be translated
+"say Internal error; bad moveType %d (%d,%d-%d,%d)" === "say Error interno; moveType incorrecto %d (%d,%d-%d,%d)"
+"You are playing Black" === "Usted juega negras"
+"You are playing White" === "Usted juega blancas"
+"It is White's turn" === "Turno de las blancas"
+"It is Black's turn" === "Turno de las negras"
+"Displayed position is not current" === "La நிலை mostrada no es la actual"
+"Illegal move" === "Jugada ilegal"
+"End of game" === "Fin del juego"
+"Incorrect move" === "Jugada incorrecta"
+## Second %s is translated 'first' or 'second'.
+"Illegal move \"%s\" from %s machine" === "Jugada ilegal \"%s\" del %s motor"
+"Forfeit due to illegal move" === "Detenido por jugada ilegal"
+"%s does not support analysis" === "%s no admite an�lisis"
+## Second %s is translated 'first' or 'second'
+"Illegal move \"%s\" (rejected by %s chess program)" === "Jugada ilegal \"%s\" (rechazada por %s programa de ajedrez)"
+## First %s is translated 'first' or 'second'
+"Failed to start %s chess program %s on %s: %s\n" === "Falla al iniciar %s programa de ajedrez %s en %s: %s\n"
+"Hint: %s" === "Sugerencia: %s"
+
+"Machine accepts your draw offer" === "La m�quina acepta su oferta de tablas"
+"Machine offers a draw\nSelect Action / Draw to agree" === "La m�quina ofrece tablas\nSeleccione acci�n / Tablas para acordar"
+"%s (only move)" === "%s (jugada �nica)"
+"Ambiguous move in ICS output: \"%s\"" === "Jugada ambigua en salida ICS: \"%s\""
+"Illegal move in ICS output: \"%s\"" === "Jugada ilegal en salida ICS: \"%s\""
+"Gap in move list" === "Hueco en lista de jugadas"
+"Game too long; increase MAX_MOVES and recompile" === "Juego demasiado largo; incremente MAX_MOVES y recompile"
+"Variant %s not supported by %s" === "Variante %s no es admitida por %s"
+"Startup failure on '%s'" === "Falla al iniciar '%s'"
+"Waiting for first chess program" === "Esperando al primer programa de ajedrez"
+"Waiting for second chess program" === "Esperando al segundo programa de ajedrez"
+"Match %s vs. %s: final score %d-%d-%d" === "விளையாட்டு %s vs. %s: puntuaci�n final %d-%d-%d"
+"Stalemate" === "Mate ahogado"
+"Illegal move: %d.%s%s" === "Jugada ilegal: %d.%s%s"
+"Ambiguous move: %d.%s%s" === "Jugada ambigua: %d.%s%s"
+"Can't open \"%s\"" === "No se puede abrir \"%s\""
+"Cannot build game list" === "No se puede armar lista de விளையாட்டுs"
+"No more games in this message" === "No hay m�s விளையாட்டுs en este mensaje"
+"No game has been loaded yet" === "Ninguna விளையாட்டு se ha cargado a�n"
+"Can't back up any further" === "No se puede ir m�s atr�s"
+"Game number out of range" === "N�mero de விளையாட்டு fuera de rango"
+"Can't seek on game file" === "No se puede buscar en archivo de விளையாட்டுs"
+"Game not found in file" === "விளையாட்டு no hallada en archivo"
+"Bad FEN position in file" === "நிலை FEN incorrecta en archivo"
+"No moves in game" === "Ninguna jugada en la விளையாட்டு"
+"No position has been loaded yet" === "Ninguna நிலை se ha cargado a�n"
+"Can't back up any further" === "No se puede ir m�s atr�s"
+"Can't open \"%s\"" === "No se puede abrir \"%s\""
+"Can't seek on position file" === "No se puede buscar en archivo de விளையாட்டுs"
+"Position not found in file" === "No se hall� la நிலை en el archivo"
+"Bad FEN position in file" === "நிலை FEN incorrecta en archivo"
+"Black to play" === "Las negras juegan"
+"White to play" === "Las blancas juegan"
+"Can't open \"%s\"" === "No se puede abrir \"%s\""
+"You have edited the game history.\nUse Reload Same Game and make your move again." === "Usted edit� la lista de jugadas.\nUtilice Recargar misma விளையாட்டு y realice su jugada de nuevo."
+"You have entered too many moves.\nBack up to the correct position and try again." === "Usted entr� demasiados jugadas.\nRetroceda a la நிலை correcta y vuelva a intentar"
+"Displayed position is not current.\nStep forward to the correct position and try again." === "La நிலை ilustrada no es la actual.\nAdelante a la நிலை correcta y vuelva a intentar."
+"You have not made a move yet" === "Usted todav�a no hace una jugada"
+"The cmail message is not loaded.\nUse Reload CMail Message and make your move again." === "El mensaje cmail no est� cargado.\nUtilice Reload CMail Message y realice su jugada de nuevo."
+"No unfinished games" === "No hay விளையாட்டுs sin terminar"
+"You have already mailed a move.\nWait until a move arrives from your opponent.\nTo resend the same move, type\n\"cmail -remail -game %s\"\non the command line." === "Usted ya envi� una jugada.\nEspere hasta que llegue una jugada de su oponente.\nPara reenviar la misma jugada, teclee\n\"cmail -remail -game %s\"\nen la l�nea de comandos."
+"Failed to invoke cmail" === "Falla al invocar cmail"
+"Waiting for reply from opponent\n" === "Esperando respuesta del oponente\n"
+"Still need to make move for game\n" === "Todav�a necesita hacer una jugada para la விளையாட்டு\n"
+"Still need to make moves for both games\n" === "Todav�a necesita hacer jugadas para ambas விளையாட்டுs\n"
+"Still need to make moves for all %d games\n" === "Todav�a necesita hacer jugadas para las %d விளையாட்டுs\n"
+"Still need to make a move for game %s\n" === "Todav�a necesita hacer una jugada para la விளையாட்டு %s\n"
+"No unfinished games\n" === "No hay juegos sin terminar\n"
+"Ready to send mail\n" === "Listo para enviar correo\n"
+"Still need to make moves for games %s\n" === "Todav�a necesita hacer jugadas para las விளையாட்டுs %s\n"
+"Edit comment" === "Editar comentario"
+"Edit comment on %d.%s%s" === "Editar comentario en %d.%s%s"
+"Starting analysis mode...\nIf this message stays up, your chess program does not support analysis." ===  "Comenzando modo de an�lisis...\nSi este mensaje permanece, su programa de ajedrez no admite an�lisis."
+"It is not White's turn" === "No es turno de las blancas"
+"It is not Black's turn" === "No es turno de las negras"
+"Wait until your turn,\nor select Move Now" === "Espere su turno,\no seleccione Forzar Jugada"
+"Starting second chess program" === "Comenzado el segundo programa de ajedrez"
+"Training mode off" === "Modo de entrenamiento apagado"
+"Training mode on" === "Modo de entrenamiento activo"
+"Already at end of game" === "Ya se encuentra al final de la விளையாட்டு"
+"Warning: You are still playing a game" === "Advertencia: Usted todav�a est� jugando una விளையாட்டு"
+"Warning: You are still observing a game" === "Advertencia: Usted todav�a est� observando una விளையாட்டு"
+"Warning: You are still examining a game" === "Advertencia: Usted todav�a est� examinando una விளையாட்டு"
+"It is Black's turn" === "Es turno de las negras"
+"It is White's turn" === "Es turno de las blancas"
+"That square is occupied" === "Ese cuadro est� ocupado"
+"There is no pending offer on this move" === "No hay oferta pendiente para esta jugada"
+"Your opponent is not out of time" === "Su oponente no est� fuera de tiempo"
+"Black offers a draw" === "Las negras ofrecen tablas"
+"White offers a draw" === "Las blancas ofrecen tablas"
+"You must make your move before offering a draw" === "Debe hacer su jugada antes de ofrecer tablas"
+"You are not examining a game" === "Usted no est� examinando una விளையாட்டு"
+"You can't revert while pausing" === "No puede revertir si est� en pausa"
+"Wait until your turn,\nor select Move Now" === "Espere su turno,\no seleccione Forzar Jugada"
+"It is your turn" === "Es su turno"
+"Wait until your turn" === "Espero su turno"
+"No hint available" === "No hay sugerencia disponible"
+## First %s is translated 'first' or 'second'
+"Error writing to %s chess program" === "Error al escribir al %s programa de ajedrez"
+## First %s is translated 'first' or 'second'
+"Error: %s chess program (%s) exited unexpectedly" === "Error: el %s programa de ajedrez (%s) termin� inesperadamente"
+## First %s is translated 'first' or 'second'
+"Error reading from %s chess program (%s)" === "Error al leer del %s programa de ajedrez (%s)"
+"Analysis (%s)" === "An�lisis (%s)"
+"Comment" === "Comentario"
+"Comment on %d.%s%s" === "Comentario de %d.%s%s"
+"Both flags fell" === "Ambas banderas cayeron"
+"White's flag fell" === "La bandera blanca cay�"
+"Black's flag fell" === "La bandera negra cay�"
+"Bad FEN position in clipboard" === "நிலை FEN incorrecta en portapapeles"
+"No response from ICS" === "No hay respuesta de ICS"
+"You cannot do this while you are playing or observing" === "Usted no puede hacer esto mientras juega u observa"
+"Click in holdings to choose piece" === "Haga click para escoger pieza"
+
+END-OF-GAME MESSAGES 
+"Game aborted" === "விளையாட்டு abortada"
+"White wins on time" === "Las blancas ganan por tiempo"
+"Black wins on time" === "Las negras ganan por tiempo"
+"Both players ran out of time" === "Ambos jugadores se quedaron sin tiempo"
+"White resigns" === "Las blancas se resignan"
+"Black resigns" === "Las negras se resignan"
+"White mates" === "Las blancas dan mate"
+"Black mates" === "Las negras dan mate"
+"Draw" === "Tablas"
+"Draw agreed" === "Tablas acordadas"
+"Xboard adjudication: King destroyed" === "XBoard adjudica: Rey destruido"
+"Xboard adjudication: Bare king" === "XBoard adjudica: Rey solitario"
+"Xboard adjudication: 3rd check" === "XBoard adjudica: 3er. jaque"
+"Xboard adjudication: Stalemate" === "XBoard adjudica: Mate ahogado"
+"Xboard adjudication: Checkmate" === "XBoard adjudica: Jaquemate"
+"Xboard adjudication: Insufficient mating material" === "XBoard adjudica: Material insuficiente para dar mate"
+"Xboard adjudication: Trivial draw" === "XBoard adjudica: Tablas triviales"
+"XBoard adjudication: repetition draw" === "XBoard adjudica: Tablas por repetici�n"
+"Xboard adjudication: perpetual checking" === "XBoard adjudica: Jaque perpetuo"
+"Xboard adjudication: perpetual chasing" === "XBoard adjudica: Persecuci�n perpetua"
+"%Xboard adjudication: perpetual chasing of" === "XBoard adjudica: Persecuci�n perpetua de"
+"Xboard adjudication: 50-move rule" === "XBoard adjudica: regla de las 50 jugadas"
+"Draw claim: 50-move rule" === "Pide tablas: regla de las 50 jugadas"
+"Draw claim: 3-fold repetition" === "Pide tablas: 3 repeticiones de நிலை"
+"Draw claim: insufficient mating material" === "Pide tablas: material insuficiente para dar mate"
+"Xboard adjudication: long game" === "XBoard adjudica: juego largo"
+"Xboard: Forfeit due to invalid move: %s (%c%c%c%c) res=%d" === "XBoard: Perdido por jugada inv�lida: %s (%c%c%c%c) res=%d"
+"Xboard: Forfeit due to illegal move: %s (%c%c%c%c)%c" === "XBoard: Perdido por jugada ilegal: %s (%c%c%c%c)%c"
+"Xboard adjudication" === "XBoard adjudica"
+"User adjudication" === "El usuario adjudica"
+"False win claim: '%s'" === "Falso aviso de ganar: '%s'"
+"False draw claim: '%s'" === "Falso aviso de tablas: '%s'"
+"xboard exit" === "XBoard termina"
+
+"Type in your name" === "Introduzca su nombre"
+"You can only start a match from the initial position" === "S�lo se puede iniciar un torneo desde la நிலை inicial"
